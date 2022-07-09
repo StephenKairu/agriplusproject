@@ -19,25 +19,34 @@ body {
     align-items: center;
     color:white;
 }
-.navclass {
+.navclass a{
+    text-decoration: none;
 }
 #navbar a{
     text-decoration: none;
     color: white;
 }
-
-
-
-
+button {
+    float: right;
+    width: 10%;
+    padding: 10px;
+    background: #ED661F;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
 
 .subscribe-section {
     background-color: black;
     margin-top: 60%;
-    margin-bottom: 5%;
+    margin-bottom: 5px;
     color: white;
 }
 .subscribe {
     background-color: black;
+    margin-bottom: 5px;
 }
 
 form.example input[type=text] {
