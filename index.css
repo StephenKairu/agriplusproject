@@ -1,9 +1,12 @@
 body {
     background-color:white;
 }
+* {
+    overflow: auto;
+}
 #navbar {
     background-color: black;
-    position: fixed;
+    position:sticky;
     margin-top: 0%;
     width: 100%;
     height: 10%;
@@ -22,12 +25,30 @@ body {
     color: white;
     width: 100%;
     margin: 100% 0 0 0;
-    float: left;
 }
 
 
 
-
+.footer-left {
+    float: left;
+    width: 50%;
+}
+.footer-right {
+    display: flex;
+    flex-direction: column;
+}
+.footer-right1 {
+    float: left;
+    width: 33.33%;
+}
+.footer-icons {
+    width: 5%;
+    height: 5%;
+}
+.footer-logo {
+    width: 25%;
+    height: 10%;
+}
 .allrights {
     display: flex;
     flex-direction: column;
