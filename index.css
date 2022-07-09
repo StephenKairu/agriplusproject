@@ -1,0 +1,35 @@
+body {
+    background-color:white;
+}
+#navbar {
+    background-color: black;
+    position: fixed;
+    margin-top: 0%;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navclass {
+}
+#navbar a{
+    text-decoration: none;
+}
+.footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 100% 0 0 0;
+    float: left;
+}
+
+
+
+
+.allrights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
