@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
 
 body {
-    background-color:white;
+    background-color:#fafafa;
     font-family: 'Poppins', sans serif;
 }
 * {
@@ -101,6 +101,26 @@ button {
     justify-content: space-between;
     gap: 10px;
 }
+
+.customer-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.customer-main img{
+    width: 10%;
+    height: 10%;
+}
+.customer {
+    border-radius: 1%;
+    color: #000;
+    margin: 1% 1% 1% 1%;
+    box-shadow: 0px 0px 3px 3px gray;
+    background-color:white;
+    float: left;
+    width: 33.33%;
+}
+
 .subscribe-section {
     background-color: black;
     margin-top: 60%;
@@ -136,12 +156,15 @@ form.example input[type=text] {
   button:hover {
     background: #f05704;
   }
-
 .footer {
     background-color: black;
     color: white;
     width: 100%;
     margin: 100% 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
 }
 
 .footer-left {
@@ -149,6 +172,8 @@ form.example input[type=text] {
     width: 50%;
 }
 .footer-right {
+    float: left;
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -169,3 +194,4 @@ form.example input[type=text] {
     flex-direction: column;
     align-items: center;
 }
+
