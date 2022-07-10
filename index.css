@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body {
     background-color:#fafafa;
@@ -44,6 +45,9 @@ button {
     background-image:url(assets/image\ 1.png);
     margin-top: 10%;
 }
+.section2 {
+    margin-top: 10%;
+}
 .div1 {
     background-image: url(assets/image\ 1.png);
 }
@@ -63,7 +67,8 @@ button {
   .stats {
     position: absolute;
     bottom: 20%;
-    right: 4%;
+    right: 12%;
+    box-shadow: 3px 6px 3px -3px gray;
     background-color: white;
     color: black;
     padding-left: 50px;
@@ -92,7 +97,6 @@ button {
     align-items: center;
 }
 .section3head {
-   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,6 +120,13 @@ button {
 .checked {
     color: orange;
   }
+.more {
+    margin-left: 80%;
+}
+.fa {
+    width: 10%;
+    height: 10%;
+}
 .customer-main img{
     width: 10%;
     height: 10%;
@@ -139,6 +150,10 @@ button {
 .subscribe {
     background-color: black;
     margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 form.example input[type=text] {
