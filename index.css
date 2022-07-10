@@ -91,6 +91,12 @@ button {
     justify-content: space-between;
     align-items: center;
 }
+.section3head {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .three img{
     width: 60%;
     height: 60%;
@@ -107,6 +113,9 @@ button {
     flex-direction: row;
     align-items: center;
 }
+.checked {
+    color: orange;
+  }
 .customer-main img{
     width: 10%;
     height: 10%;
