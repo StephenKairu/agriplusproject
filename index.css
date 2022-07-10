@@ -27,7 +27,7 @@ body {
     color: white;
 }
 button {
-    float: right;
+    float: left;
     width: 10%;
     padding: 10px;
     background: #ED661F;
@@ -35,6 +35,10 @@ button {
     font-size: 17px;
     border: 1px solid grey;
     border-left: none; /* Prevents double borders */
+}
+.one-button {
+    width: 15%;
+    left: 5%;
 }
 .section1 {
     background-image:url(assets/image\ 1.png);
@@ -58,13 +62,18 @@ button {
   }
   .stats {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 20%;
+    right: 4%;
     background-color: white;
     color: black;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+    font-size: ;
   }
 .two {
     float: left;
