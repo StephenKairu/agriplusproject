@@ -37,6 +37,10 @@ button {
     border-left: none; /* Prevents double borders */
 }
 
+.two {
+    float: left;
+    width: 50%;
+}
 .subscribe-section {
     background-color: black;
     margin-top: 60%;
@@ -57,7 +61,7 @@ form.example input[type=text] {
     background: #f1f1f1;
   }
   
-  /* Style the submit button */
+  /* Style the subscribe button */
   form button {
     float: right;
     width: 10%;
@@ -67,18 +71,10 @@ form.example input[type=text] {
     font-size: 17px;
     border: 1px solid grey;
     border-left: none; /* Prevent double borders */
-    cursor: pointer;
   }
   
   button:hover {
     background: #f05704;
-  }
-  
-  /* Clear floats */
-  form ::after {
-    content: "";
-    clear: both;
-    display: table;
   }
 
 .footer {
