@@ -34,8 +34,7 @@ button {
     color: white;
     font-size: 17px;
     border: 1px solid grey;
-    border-left: none; /* Prevent double borders */
-    cursor: pointer;
+    border-left: none; /* Prevents double borders */
 }
 
 .subscribe-section {
@@ -71,7 +70,7 @@ form.example input[type=text] {
     cursor: pointer;
   }
   
-  form button:hover {
+  button:hover {
     background: #f05704;
   }
   
