@@ -270,8 +270,10 @@ button:hover {
     height: 10%;
 }
 .allrights {
-    clear: both;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #000;
+    color: white;
 }
