@@ -28,7 +28,6 @@ body {
     color: white;
 }
 button {
-    float: left;
     width: 10%;
     padding: 10px;
     background: #ED661F;
@@ -38,7 +37,7 @@ button {
     border-left: none; /* Prevents double borders */
 }
 .one-button {
-    width: 15%;
+    width: 20%;
     left: 5%;
 }
 .section1 {
@@ -63,22 +62,24 @@ button {
     color: black;
     padding-left: 20px;
     padding-right: 20px;
+    float: left;
+    width: 50%;
   }
   .stats {
+    font-family: 'Inter', sans-serif;
     position: absolute;
     bottom: 20%;
     right: 12%;
     box-shadow: 3px 6px 3px -3px gray;
     background-color: white;
     color: black;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10%;
+    padding-right: 7%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 5%;
-    font-size: ;
   }
 .two {
     float: left;
@@ -106,12 +107,34 @@ button {
     height: 60%;
 }
 .three1 {
+    font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
 }
-
+.four1 {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content:;
+    align-items: center;
+    gap: 10%;
+}
+.section1 h1 {
+    font-size:xx-large;
+    font-weight: 900;
+}
+.section3 h2, h3 {
+    font-size:x-large;
+    font-weight: 900;
+}
+.h {
+    font-weight: 700;
+}
 .customer-main {
     display: flex;
     flex-direction: row;
@@ -132,6 +155,7 @@ button {
     height: 10%;
 }
 .customer {
+    font-family: 'Inter', sans-serif;
     border-radius: 1%;
     color: #000;
     margin: 1% 1% 1% 1%;
@@ -139,6 +163,13 @@ button {
     background-color:white;
     float: left;
     width: 33.33%;
+}
+.customer p{
+    font-size:xx-large;
+    font-weight: 900;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 .subscribe-section {
@@ -148,6 +179,7 @@ button {
     color: white;
 }
 .subscribe {
+    font-family: 'Inter', sans-serif;
     background-color: black;
     margin-bottom: 5px;
     display: flex;
@@ -155,20 +187,10 @@ button {
     justify-content: space-evenly;
     align-items: center;
 }
-
-form.example input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 80%;
-    background: #f1f1f1;
-  }
   
   /* Style the subscribe button */
   form button {
-    float: right;
-    width: 10%;
+    width: 40%;
     padding: 10px;
     background: #ED661F;
     color: white;
@@ -176,11 +198,20 @@ form.example input[type=text] {
     border: 1px solid grey;
     border-left: none; /* Prevent double borders */
   }
+  input[type="email"].submit {
+    padding: 11px;
+    font-size: 17px;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border: 1px solid grey;
+  }
   
   button:hover {
     background: #f05704;
   }
 .footer {
+    font-family: 'Inter', sans-serif;
     background-color: black;
     color: white;
     width: 100%;
